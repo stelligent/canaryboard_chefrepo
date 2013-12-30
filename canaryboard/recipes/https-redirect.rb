@@ -4,6 +4,7 @@ cookbook_file 'rewrite-ssl' do
   #path '/etc/httpd/sites-available/canaryboard.conf.d/rewrite-ssl'
 end
 
-service 'httpd' do
+service 'apache2' do
+#service 'httpd' do
   action :restart
 end
