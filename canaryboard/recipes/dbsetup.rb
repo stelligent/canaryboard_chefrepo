@@ -1,3 +1,3 @@
 execute "rake db:setup" do
-  cwd "/srv/www/honoluluanswers/current"
+  cwd "/srv/www/canaryboard/current"
 end
