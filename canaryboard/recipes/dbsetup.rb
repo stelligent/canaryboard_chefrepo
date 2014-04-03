@@ -2,6 +2,6 @@ execute "rake db:setup" do
   cwd "/srv/www/canaryboard/current"
 end
 
-execute "rake db:setup" do
+execute "rake db:test:prepare" do
   cwd "/srv/www/canaryboard/current"
 end
